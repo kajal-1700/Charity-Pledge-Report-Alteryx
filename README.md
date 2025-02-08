@@ -73,7 +73,7 @@ Data Transformation: Join, Summarize, Filter, Sort
 
 📎 Project Files
 
-🔗 GitHub Repository Link 
+🔗 GitHub Repository Link: https://github.com/kajal-1700/Charity-Pledge-Report-Alteryx/blob/main/Charity%20Pledge%20Report.yxmd 
 
 🙌 Connect With Me
 
