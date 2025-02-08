@@ -1,0 +1,612 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\System+Pledge+Report.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>8</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>System+Pledge+Report.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Anonymous Donation" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\System+Pledge+Report.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Donation Type" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\System+Pledge+Report.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Payroll Deduction Frequency" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\System+Pledge+Report.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Gift Type" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\System+Pledge+Report.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Total Pledge Amount" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\System+Pledge+Report.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Donation Created Date" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\System+Pledge+Report.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Charity EIN" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\System+Pledge+Report.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Market" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\System+Pledge+Report.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Employee Work City" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\System+Pledge+Report.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Employee Work State" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\System+Pledge+Report.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Employee Work Country" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\System+Pledge+Report.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Transaction Id" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\System+Pledge+Report.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Payroll Pledge Id" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\System+Pledge+Report.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Payroll Pledge Charity Id" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\System+Pledge+Report.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\Charity+Information.xlsx|||`Charity Info$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Charity+Information.xlsx
+Query=`Charity Info$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Charity ID" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\Charity+Information.xlsx|||`Charity Info$`" type="V_String" />
+            <Field name="Charity EIN" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\Charity+Information.xlsx|||`Charity Info$`" type="V_String" />
+            <Field name="Charity Name" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\Charity+Information.xlsx|||`Charity Info$`" type="V_WString" />
+            <Field name="Charity Address Detail" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\Charity+Information.xlsx|||`Charity Info$`" type="V_WString" />
+            <Field name="Charity Category" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\Charity+Information.xlsx|||`Charity Info$`" type="V_String" />
+            <Field name="Pledged Bucket" size="255" source="File: C:\Users\Kajal Jaiswal\Documents\Portfolio Projects\Alteryx Projects\Project 1 Udemy Donation report by city\Charity+Information.xlsx|||`Charity Info$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\KAJALJ~1\AppData\Local\Temp\Alteryx\Engine_25196_093421d958e940d0a1d91021f1f85259_\Engine_25196_71d66eed5092442b824f3bc29034288d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="210" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Trim([Market],&quot; &quot;)" field="Market" size="255" type="V_String" enabled="true" />
+            <FormulaField expression="Uppercase([Employee Work State])&#xA;&#xA;" field="Employee Work State" size="255" type="V_String" enabled="true" />
+            <FormulaField expression="TitleCase([Employee Work Country])&#xA;" field="Employee Work Country" size="255" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Market = Trim([Market]," ")
+Employee Work State = Uppercase([Employee Work State...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Anonymous Donation" selected="True" type="Bool" size="1" />
+            <SelectField field="Total Pledge Amount" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="390" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Donation Created Date</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>DateTime_Out</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Donation Created Date From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="486" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF ISNULL ([Gift Type]) &#xA;THEN &quot;Online&quot; &#xA;ELSE ([Gift Type])&#xA;ENDIF&#xA;" field="Gift Type" size="255" type="V_String" enabled="true" />
+            <FormulaField expression="[DateTime_Out]" field="Donation Created Date" size="255" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Gift Type = IF ISNULL ([Gift Type]) 
+THEN "Online" 
+ELSE ([Gift Type])
+ENDIF
+
+Do...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="582" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Anonymous Donation" selected="True" />
+            <SelectField field="Donation Type" selected="True" />
+            <SelectField field="Payroll Deduction Frequency" selected="True" />
+            <SelectField field="Gift Type" selected="True" />
+            <SelectField field="Total Pledge Amount" selected="True" />
+            <SelectField field="DateTime_Out" selected="True" rename="Donation Created Date" />
+            <SelectField field="Donation Created Date" selected="False" />
+            <SelectField field="Charity EIN" selected="True" />
+            <SelectField field="Market" selected="True" />
+            <SelectField field="Employee Work City" selected="True" />
+            <SelectField field="Employee Work State" selected="True" />
+            <SelectField field="Employee Work Country" selected="True" />
+            <SelectField field="Transaction Id" selected="True" />
+            <SelectField field="Payroll Pledge Id" selected="True" />
+            <SelectField field="Payroll Pledge Charity Id" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="126" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Charity Address Detail</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Charity Address Detail</RootName>
+          <Delimeters value="+" />
+          <NumFields value="6" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="234" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Charity Address Detail" selected="False" />
+            <SelectField field="Charity Address Detail1" selected="True" rename="Charity Address 1" />
+            <SelectField field="Charity Address Detail2" selected="True" rename="Charity Address 2" />
+            <SelectField field="Charity Address Detail3" selected="True" rename="Charity City" />
+            <SelectField field="Charity Address Detail4" selected="True" rename="Charity State" />
+            <SelectField field="Charity Address Detail5" selected="True" rename="Charity Postal Code" />
+            <SelectField field="Charity Address Detail6" selected="True" rename="Charity Country" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="342" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Charity Country</UpdateField_Name>
+          <CreateField_Name>Charity Country</CreateField_Name>
+          <CreateField_Type>V_String</CreateField_Type>
+          <CreateField_Size>214</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF ISNULL([Charity Country])
+THEN [Row-1:Charity Country]
+ELSE ([Charity Country])
+ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF ISNULL([Charity Country])
+THEN [Row-1:Charity Country]
+ELS...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="426" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Charity State</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF IsEmpty([Charity State])
+THEN [Row-1:Charity State]
+ELSE ([Charity State])
+ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF IsEmpty([Charity State])
+THEN [Row-1:Charity State]
+ELSE (...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings>
+        <Position x="534" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Charity Address 1","Charity Address 2","Charity City"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">title</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="618" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Charity EIN" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="738" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Charity EIN" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Charity EIN" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Charity EIN" selected="False" rename="Right_Charity EIN" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="846" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Charity Name" action="GroupBy" rename="Charity Name" />
+            <SummarizeField field="Total Pledge Amount" action="Sum" rename="Sum_Total Pledge Amount" />
+            <SummarizeField field="Charity Category" action="GroupBy" rename="Charity Category" />
+            <SummarizeField field="Employee Work State" action="GroupBy" rename="Employee Work State" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="714" y="270" width="216" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Most donated pledge amount charity category- Education
+
+Most credit card Paid charity- St Judes Research Hospital
+
+
+Charity that had highest pledge amount in new york for 'Public' charity category- - United way worldwide</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="966" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Charity Category] = "Public" &amp;&amp; [Employee Work State] = "NY"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Charity Category] = "Public" &amp;&amp; [Employee Work State] = "NY"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1086" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Sum_Total Pledge Amount" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sum_Total Pledge Amount - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="19" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Unique" />
+      <Destination ToolID="19" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output26" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Join" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="True" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="7dfb4241-305d-47cb-a0d3-859d13dc8dbe" />
+      <Telemetry>
+        <PreviousWorkflowId value="d3fa55ac-d3c2-459a-b394-855802a1c4e8" />
+        <OriginWorkflowId value="d3fa55ac-d3c2-459a-b394-855802a1c4e8" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
